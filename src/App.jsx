@@ -1,15 +1,16 @@
 import "./App.css";
-import { PopReg } from "./components /pop-components";
-import { PopNewCard } from "./components /pop-components";
-import { PopBrowse } from "./components /pop-components";
-import Header from "./components /header-component";
-import Main from "./components /main-component";
+import PopUser from "./components/PopUser/PopUser.";
+import PopNewCard from "./components/PopNewCard/PopNewCard";
+import PopBrowse from "./components/PopBrowse/PopBrowse";
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+
 function App() {
   return (
     <>
       <div className="wrapper">
         {/* Первые компонент */}
-        <PopReg />
+        <PopUser />
         <PopNewCard />
         {/* Второй компонент */}
         <PopBrowse />
