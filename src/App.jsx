@@ -9,14 +9,10 @@ function App() {
   return (
     <>
       <div className="wrapper">
-        {/* Первые компонент */}
         <PopUser />
         <PopNewCard />
-        {/* Второй компонент */}
         <PopBrowse />
-        {/* Третий компонент */}
         <Header />
-        {/* Четвертый  компонент */}
         <Main />
       </div>
 
